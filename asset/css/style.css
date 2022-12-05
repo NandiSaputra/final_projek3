@@ -1,0 +1,84 @@
+html,
+body {
+ height: 100%;
+ width: 100%;
+ font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+ position: absolute;
+ top: 0;
+ left: 17%;
+}
+
+
+.logo{
+ width: 100px;
+}
+#home{
+position: relative;
+padding-top: 5%;
+}
+.text{
+ margin-top: 30px;
+ text-align:start;
+}
+.tittle{
+ font-size: 60px;
+ font-weight: bolder;
+}
+.btn-text{
+ width: 200px;
+ height: 50px;
+ background: linear-gradient(160deg, rgb(237, 240, 142), #afe1f6);
+ border-radius: 5px;
+}
+
+#about {
+ position: relative;
+ padding-top: 12%;
+ text-align: center;
+}
+.tittle-about{
+ margin-bottom: 35px;
+text-decoration: underline;
+text-decoration-skip-ink: none ;
+text-decoration-color: goldenrod;
+}
+#service {
+ position: relative;
+ padding-top: 12%;
+ text-align: center;
+}
+
+
+@media screen and (max-width :576px) {
+ .navbar-brand {
+  position: relative; 
+
+ }
+}
+
+@media screen and (max-width :576px) {
+ .logo {
+  width: 50px;
+  
+ }
+}
+
+@media screen and (min-width:576px) {
+ .carousel-inner{
+ display: flex;
+}
+.carousel-item{
+ display: block;
+ margin-right: 0;
+ flex: 0 0 calc(100%/3);
+}
+}
+.carousel-inner{
+ padding: 1em;
+}
+.card{
+ margin: 0 .5em
+}
+
