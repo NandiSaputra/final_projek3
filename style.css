@@ -1,0 +1,264 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* A & B Section */
+
+.navbar-brand{
+  position: absolute;
+  top: 0;
+  left: 17%;
+}
+.header h1  {
+  font-size: 60px;
+  margin-bottom: 10%;
+  color: #020E35;
+}
+
+.header button, .card button, .navbar button{
+    border-radius: 0;
+    border: 0;
+    background-image: linear-gradient(to right, #8C32F0, #E73587);
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+.navbar {
+    background-color: white;
+    stroke:5px;
+    box-shadow:5px 5px 10px  lightgrey;
+    
+    }
+
+.header{
+    margin: 10%;
+}
+
+.dot {
+  height: 170px;
+  width: 170px;
+  background-color: #F0F3FA;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  left: -80px;
+}
+
+.aboutus u, .services u {
+  text-decoration-color: #E73587;
+}
+
+.services{
+  margin-top:5%;
+  left: 5%;
+  right: 5%;
+}
+
+.header .bttn{
+  padding-bottom: 5%;
+}
+
+.header button {
+  height: 50px;
+  width: 200px;
+}
+
+.header img{
+  height: 50%;
+  width: 50%;
+}
+
+.card-deck{
+  margin-top: 5%;
+}
+.card{
+  margin-right: 5%;
+}
+
+.btn-contact{
+    text-align: center;
+    font-weight: bold;
+    line-height: 38px;
+    background-image: linear-gradient(to right, #8C32F0, #E73587) !important;
+}
+
+.btn-contact a{
+    vertical-align: middle;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.buttonRight {
+    background-image: linear-gradient(to right, #8C32F0, #E73587);
+    border: none;
+    color: white;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 210px 2px 4px 2px;
+    flex-direction: column;
+    align-items: center;
+    height: 76px;
+    width: 76px;
+    border: 3px solid #fff;
+    border-radius: 70%;
+  }  
+
+@media screen and (max-device-width: 720px) { 
+    .buttonRight{
+      margin-top: 50px;
+      transform: rotate(90deg);
+    }
+}
+
+.roundedRight button{
+    font-size: 40px;
+    vertical-align: text-top !important;
+}
+
+.card.a{
+    background: #FDF8E3;
+}
+
+.card.b{
+    background: #F0F3FA;
+}
+
+.card.c{
+    background: #FEEFF0;
+}
+
+
+/* C & D Section */
+.our-work {
+    /* margin-top: 10%; */
+    color: #ffffff;
+}
+
+.our-work u {
+    text-decoration-color: #E73587;
+}
+
+.content {
+    padding: 6%;
+}
+
+#porto {
+    background: #020E35;
+}
+
+#services {
+    background: linear-gradient(360deg, #020E35 50%, #fff 50%);
+    padding-bottom: 150px;
+}
+
+.content .text, .content .image {
+    margin: 3% 0 3%;
+}
+
+.content-2, .content-3, .content-4 {
+    margin-top: 5%;
+}
+
+.content-1, .content-2, .content-3, .content-4 {
+    height: 150%;
+}
+
+.content-1 .image {
+    background: #F09532;
+    padding: 20px;
+}
+
+.content-1 img {
+    height: 100%;
+    width: 90%;
+}
+
+.content-2 .image {
+    background: #8C32F0;
+    padding-top: 30px;
+}
+
+.content-2 img {
+    height: 100%;
+    width: 70%;
+}
+
+.content-3 .image {
+    background: #E73587;
+    padding: 30px 30px 0 30px;
+}
+
+.content-3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.content-4 .image {
+    background: #32D6F0;
+    padding: 40px;
+}
+
+.content-4 img {
+    height: 100%;
+    width: 98%;
+}
+
+.our-work {
+    text-decoration-color: #E73587;
+}
+
+.our-work .bttn{
+    padding-bottom: 5%;
+}
+
+
+.our-work button, .contact button{
+    border-radius: 0;
+    border: 0;
+    background-image: linear-gradient(to right, #8C32F0, #E73587);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.our-work button {
+    height: 50px;
+    width: 200px;
+}
+
+.contact, .header {
+    margin: 10%;
+}
+
+
+.contact h5 {
+    font-weight: bold;
+}
+
+.contact h1 {
+    font-size: 60px;
+    margin-bottom: 10%;
+}
+
+
+.contact .sub::placeholder {
+    opacity: 1;
+}
+
+.contact button {
+    height: 50px;
+    width: 100%;
+}
+
+footer {
+    background: #020E35;
+    color: #ffffff;
+    padding: 10px 10%;
+    height: 50px;
+    font-size: 11px;
+}
