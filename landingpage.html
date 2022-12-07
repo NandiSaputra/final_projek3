@@ -23,7 +23,7 @@
 
 <body>
  <!-- NAVBAR -->
-   <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
+   <nav class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top">
     <div class="container">
      <a class="navbar-brand" href="#home">
       <img src="asset/img/logo.png" class="logo"></a>
@@ -45,9 +45,9 @@
        <li class="nav-item mx-3">
         <a class="nav-link" href="#porto">PORTOFOLIO</a>
        </li>
-       <li class="nav-item mx-3">
-        <a class="nav-link" href="#contact">CONTACT US</a>
-       </li>
+      <li class="btn-contact">
+        <a href="#contact" class="bttn">&nbsp;CONTACT US&nbsp;</a>
+      </li>
      </ul>
      </div>
     </div>
@@ -60,7 +60,7 @@
     <div class="row">
      <div class="text col-md-6">
       <h1 class="tittle">make your website a professional website </h1><br>
-      <button type="submit" class="btn-text">Lets Go</button>
+      <a href="#porto" type="submit" class="btn-text">Lets Go</a>
      </div>
      <div class="banner col-md-6">
         <img src="asset/img/banner.jpg" class="img-fluid" alt="">
@@ -74,10 +74,127 @@
  <section id="about">
   <div class="container">
    <h1 class="tittle-about">A<u>boutU</u>s</h1>
-   <p>Our website works in the field of online-based education with many courses and also has quality mentors in their fields. Our website has several excellent features and class materials that can be accessed forever with just one purchase</p>
+   <div class="row">
+    <div class="col-md-6">
+
+        <img src="asset/img/about1.jpg" class="img-fluid" alt="">
+    </div>
+    <div class=" content-about col-md-6">
+    <p class="text-about"><i>website works in the field of online-based education with many courses and also has quality mentors in their
+    fields. Our website has several excellent features and class materials that can be accessed forever with just one
+    purchase</i> </p>
+    </div>
+    
+   </div>
+   
   </div>
  </section>
  <!-- end about us -->
+ <!-- modal mobile apps -->
+  <div class="modal" id="modalMobile" tabindex="-1" aria-placeholder="exampleModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Mobile Apps</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card" >
+            <img src="asset/img/mobile.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">You can make mobile apps easily with our help, we will make your mobile apps professional and cheap
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="login">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal web dvelopment -->
+  <div class="modal" id="modalWeb" tabindex="-1" aria-placeholder="exampleModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Web Depelopment</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img src="asset/img/web.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">You can make mobile apps easily with our help, we will make your mobile apps
+                professional and cheap. Web development or web development, is a process of building and maintaining websites. This work is done behind the
+                scenes with the aim of creating a slick-looking, up-to-date website.
+                Generally, during the development process, companies will be guided by the needs and aspirations of their customers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="login">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal Ui/Ux -->
+  <div class="modal" id="modalUi" tabindex="-1" aria-placeholder="exampleModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Ui/Ux Designer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img src="asset/img/uiux.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">UX designer means a person who designs user experience. Which means that someone has a duty to ensure an application
+              runs with clear logic and is relevant to the needs of the user or users. UX designers generally have a role in the
+              process of interacting with users and finding out how their experience is using the application. Simple user experience
+              can be seen from the ease or complexity of the user in using an application.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="login">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal hosting -->
+  <div class="modal" id="modalHosting" tabindex="-1" aria-placeholder="exampleModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Web Hosting</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img src="asset/img/hosting.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">You can make mobile apps easily with our help, we will make your mobile apps
+                professional and cheap.Hosting provides the necessary technology and resources to keep your website online safely and effectively. The task of
+                web hosting is to manage and run servers, secure websites, and ensure that data such as text, photos and other website
+                files can be accessed by visitors via a web browser.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="login">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
  <section id="service">
   <div class="container  service">
    <h1 class="tittle-about">S<u>ervic</u>e</h1>
@@ -89,7 +206,7 @@
             <div class="card-body">
               <h5 class="card-title">Mobile Apps</h5>
               <p class="card-text">make mobile applications and profesional website easily and at affordable prices with a professional team.</p>
-            <button type="submit" class="btn-coursel">Lets Go</button>
+            <button type="submit" class="btn-coursel" data-bs-toggle="modal" data-bs-target="#modalMobile">Description</button>
             </div>
           </div>
         </div>
@@ -102,7 +219,7 @@
               <h5 class="card-title">Website development</h5>
               <p class="card-text">make website applications and profesional website easily and at affordable prices with a professional team .
               </p>
-            <button type="submit" class="btn-coursel">Lets Go</button>
+            <button type="submit" class="btn-coursel " data-bs-toggle="modal" data-bs-target="#modalWeb">Description</button>
             </div>
           </div>
         </div>
@@ -115,7 +232,7 @@
             <h5 class="card-title">UI/UX designer</h5>
             <p class="card-text">helps you to design the UI and UX appearance of your website to become a professional website and make beautiful website
             </p>
-            <button type="submit" class="btn-coursel">Lets Go</button>
+            <button type="submit" class="btn-coursel" data-bs-toggle="modal" data-bs-target="#modalUi">Description</button>
           </div>
         </div>
       </div>
@@ -128,7 +245,7 @@
             <h5 class="card-title">Web Hosting</h5>
             <p class="card-text">cheap and reliable web hosting services in Indonesia make you the application puplis to internet and make beautiful website .
             </p>
-            <button type="submit" class="btn-coursel">Lets Go</button>
+            <button type="submit" class="btn-coursel" data-bs-toggle="modal" data-bs-target="#modalHosting">Description</button>
           </div>
         </div>
       </div>
@@ -148,60 +265,92 @@
           <div class="content-1">
             <div class="row">
               <div class="col-md-6 image d-flex justify-content-center">
-                <img src="asset/img/content 1.png" alt="" class="">
+                <a href="https://bright-madeleine-3f0157.netlify.app" target="_blank">
+                  <img src="asset/img/mockup3.png" alt="" class="">
+                </a>
               </div>
               <div class="col-md-6 text">
-                <h2>Web Hosting</h2>
-                <h6>HOSTING WEB | FREE DOMAINS  </h6>
+                <a href="https://bright-madeleine-3f0157.netlify.app" target="_blank">
+                  <h2 style="color:white">Kits Sell</h2>
+                </a>
+                <h6>WEBSITE | iOS | ANDROID </h6>
                 <br>
-                <p>cheap and reliable web hosting services in Indonesia make you the application puplis to internet.</p>
+                <p>website design custom and buy the best jersey in Indonesia at low prices, premium quality</p>
+                <div class="bttn d-flex justify-content-center">
+                  <a href=" https://bright-madeleine-3f0157.netlify.app" target="_blank" type="submit" class="btn-ourWork">Go website</a>
+                </div>
               </div>
             </div>
           </div>
           <div class="content-2">
             <div class="row">
               <div class="col-md-6 text text-right">
-                <h2>Mobile Apps</h2>
-                <h6>iOS | ANDROID </h6>
+                <a href="https://sanroomweddingcar.netlify.app/todos.html" target="_blank">
+                  <h2 style="color:white">Sanroom Wedding Car</h2>
+                </a>
+                
+                <h6>WEBSITE | iOS | ANDROID </h6>
                 <br>
-                <p>make mobile applications and profesional website easily and at affordable prices with a professional team..</p>
+                <p> Sanroom Wedding Car website for booking a wedding car that is ready to be delivered anywhere</p>
+                  <div class="bttn d-flex justify-content-center">
+                    <a href="https://sanroomweddingcar.netlify.app/todos.html" target="_blank" type="submit" class="btn-ourWork">Go website</a>
+                  </div>
               </div>
               <div class="col-md-6 image d-flex justify-content-center">
-                <img src="asset/img/content 2.png" alt="">
+                <a href="https://sanroomweddingcar.netlify.app/todos.html" target="_blank">
+                  <img src="asset/img/mockup2.png" alt="">
+                </a>
               </div>
             </div>
           </div>
           <div class="content-3">
             <div class="row">
               <div class="col-md-6 image d-flex justify-content-center">
-                <img src="asset/img/content 3.png" alt="">
+                <a href="https://luminous-begonia-5eeb45.netlify.app" target="_blank">
+                  <img src="asset/img/mockup.png" alt="">
+                </a>
+                
               </div>
               <div class="col-md-6 text">
-                <h3>WEBSITE DEVELOPMENT</h3>
-                <h6>WEB DEVELOPMENT</h6>
+                <a href="https://luminous-begonia-5eeb45.netlify.app" target="_blank">
+                  <h3 style="color:white">Design In</h3>
+                </a>
+                
+                <h6>WEBSITE | iOS | ANDROID</h6>
                 <br>
-                <p>make website applications and profesional website easily and at affordable prices with a professional team ..</p>
+                <p>design in is a search website for housing designs and decorations as well as building consulting services with
+                professional architects.</p>
+                <div class="bttn d-flex justify-content-center">
+                  <a href="https://luminous-begonia-5eeb45.netlify.app" target="_blank" type="submit" class="btn-ourWork">Go website</a>
+                </div>
               </div>
             </div>
           </div>
           <div class="content-4">
             <div class="row">
               <div class="col-md-6 text text-right">
-                <h3>UI /UX designer</h3>
+                  <a href="https://luminous-begonia-5eeb45.netlify.app" target="_blank">
+                    <h3 style="color:white">UI /UX designer</h3>
+                  </a>
+                
                 <h6>iOS | ANDROID | WEB DEVELOPMENT</h6>
                 <br>
                 <p>helps you to design the UI and UX appearance of your website to become a professional website and be better.</p>
-
+<div class="bttn d-flex justify-content-center">
+  <a href="https://www.figma.com/community/file/1100289223410311845" target="_blank" type="submit" class="btn-ourWork">Go website</a>
+</div>
               </div>
-              
               <div class="col-md-6 image d-flex justify-content-center">
-                <img src="asset/img/content 4.png" alt="">
+                <a href="https://luminous-begonia-5eeb45.netlify.app" target="_blank">
+                  <img src="asset/img/content 4.png" alt="">
+                </a>
+                
               </div>
             </div>
           </div>
         </div>
         <div class="bttn d-flex justify-content-center">
-          <button type="submit" class="btn">SEE ALL WORK</button>
+          <a href="#porto" type="submit" class="btn-ourWork">SEE ALL WORK</a>
         </div>
       </div>
     </div>
@@ -212,29 +361,30 @@
     <div class="contact">
       <div class="row">
         <div class="text col-md-6">
-          <h5>Questions, Comment, Concerns?</h5>
-          <h1>We'd love to <span style="color: #E73587;">hear</span> from you!</h1>
+          
+          <h5>whatever your question ?</h5>
+          <h1>we will answer all of them because we <span style="color: #E73587;">love</span> your input!</h1>
         </div>
         <div class="form-contact col-md-6">
-          <form>
+          <form id="formContact">
             <div class="form-group">
               <label>Your Email Address</label>
               <br>
-              <input type="text" class="form-control" placeholder="something@website.com">
+              <input type="text" class="form-control" id="email" placeholder="something@website.com" required>
             </div>
             <div class="form-group">
               <label>Subject</label>
               <br>
-              <input type="text" class="form-control sub" placeholder="Question about your article"
-                defaultValue="Question about your article">
+              <input type="text" class="form-control sub" id="subject" placeholder="Question about your website"
+                defaultValue="Question about your article" required>
             </div>
             <div class="form-group">
               <label>Message</label>
               <br>
-              <textarea class="form-control" cols="5" rows="5" placeholder="Your message start with..."></textarea>
+              <textarea class="form-control" id="textarea" cols="5" rows="5" placeholder="Your message start with..." required></textarea>
             </div>
             <div class="d-flex justify-content-center">
-              <button type="submit" class="btn">Send Message</button>
+              <button type="submit" class="btn ">Send Message</button>
             </div>
           </form>
         </div>
@@ -259,10 +409,11 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
  
- 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
   integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>

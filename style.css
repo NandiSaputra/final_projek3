@@ -14,12 +14,10 @@
 
 #porto {
  background: #020E35;
+ padding-top: 8%;
 }
 
-#services {
- background: linear-gradient(360deg, #020E35 50%, #fff 50%);
- padding-bottom: 150px;
-}
+
 
 .content .text,
 .content .image {
@@ -83,13 +81,26 @@
  text-decoration-color: #E73587;
 }
 
-.our-work .bttn {
+/* .our-work .bttn {
+ 
  padding-bottom: 5%;
+} */
+.btn-ourWork{
+ 
+  text-align: center;
+   font-weight: bold;
+   line-height: 38px;
+   width: 150px;
+   margin-bottom: 5%;
+   font-size: 16px;
+     width: 150px;
+   color: #ffffff;
+   background-image: linear-gradient(to right, #8C32F0, #E73587) !important;
 }
 
-
-.our-work button,
-.contact button {
+/* .our-work a,
+.contact a {
+ text-align: center;
  border-radius: 0;
  border: 0;
  background-image: linear-gradient(to right, #8C32F0, #E73587);
@@ -97,11 +108,13 @@
  font-size: 16px;
 }
 
-.our-work button {
+.our-work a {
  height: 50px;
  width: 200px;
+} */
+#contact{
+ padding-top: 1%;
 }
-
 .contact,
 .header {
  margin: 10%;
@@ -122,10 +135,14 @@
  opacity: 1;
 }
 
-.contact button {
+/* .contact button {
  height: 50px;
  width: 100%;
+} */
+.btn{
+  background-image:linear-gradient(to right, #8C32F0, #E73587);
 }
+
 
 footer {
  background: #020E35;
