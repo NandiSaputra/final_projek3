@@ -20,7 +20,7 @@ const formContact = document.getElementById('formContact')
 formContact.addEventListener("submit", (e) => {
     Swal.fire({
   icon: 'success',
-  title: 'Berhasil',
+  title: 'Success',
   text: 'We have received input from you',
 }) 
 
